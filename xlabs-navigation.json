@@ -19,7 +19,7 @@
             "minimal": true,
             "icon": "cube",
             "label": "Page ONE",
-            "route": "page1",
+            "route": "one",
             "style": {
                 "marginLeft": "6px"
             }
@@ -30,7 +30,7 @@
             "minimal": true,
             "icon": "projects",
             "label": "Page TWO",
-            "route": "page2",
+            "route": "two",
             "style": {
                 "marginLeft": "6px"
             }
