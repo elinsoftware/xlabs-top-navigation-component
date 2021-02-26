@@ -21,7 +21,7 @@ Component sys_id is `e05d4ceedc658ecb722ce0ea3a591936`, so just add it to your A
 
 The component should be configured properly - your ServiceNow Experience app has to have a UX property with a name `xlabs-navigation` and JSON type value.
 
-In that JSON objec you define a component configuraiton.
+In that JSON object you define a component configuraiton.
 
 The basic structure of the configuration file is simle:
 
@@ -53,7 +53,7 @@ There are three types of UX controls: divider, button, and anchor-button. Basic 
 ```
 
 #### Divider
-Divider is a simple separator (vertical line) to separate content of the navigation header, there is no configuration options for a divider contorl:
+Divider is a simple separator (vertical line) to separate content of the navigation header, there is no configuration options for a divider control:
 ```json
 {
     "type":"divider"
@@ -73,15 +73,15 @@ Button is a common button that loads a particular route/page:
 }
 ```
 Configuration options:
-* **large** - defines if the buttons is large or regular one.
-* **minimal** - defines the appearance of the button.
-* **icon** - the icon to add to the button. You can check all possible icons [here](https://blueprintjs.com/docs/#icons).
+* **large** - set a size of the button (large or regular).
+* **minimal** - set a style/appearance of the button.
+* **icon** - the icon to add to the button. You can check icon names [here](https://blueprintjs.com/docs/#icons).
 * **intent** - can be `none`, `primary`, `warning`, `danger` and `success`. It defines a color schema of the button.
 * **label** - button text.
 * **route** - UX page route to load when a user clicks the button.
 
 #### Anchor-Button
-Anchor-button is a regular button that opens a url in a new window. It has the same configuration options as a regular button:
+Anchor-button is a regular button that opens url in a new window. It has the same configuration options as a regular button:
  ```json
  {
     "type":"anchor-button",
