@@ -5,8 +5,7 @@ xLabs Navigation Component is a custom ServiceNow UX component.
 The component is intended to be used in App Shells to provide custom navigation/routing for Experience apps.
 
 ## 1. Installation
-
-Download and install this update set in your ServiceNow instance.
+[Download](https://s3.amazonaws.com/dev-labs.io/xlabs/%40xlabs%3Atop-navigation+%26+App+Shell.xml) and install this update set in your ServiceNow instance.
 
 The update set contains the component itself and an example of a custom App Shell which already has a reference to the component.
 
@@ -96,3 +95,13 @@ Anchor-button is a regular button that opens a url in a new window. It has the s
 ```
 
 [Here](./xlabs-navigation.json) you can find an complete example of a JSON configuration file.
+
+## Advanced version and customization
+
+Advanced version of this component provides the following features:
+* Vertical layout to display navigation menu on the left of the screen
+* Dropdown menu
+* Popovers
+* Ability to add a static text
+
+For more details about the advanced version or if you need a custom functionality - please contact info@elinsoftware.com.
