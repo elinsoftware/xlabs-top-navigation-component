@@ -21,9 +21,9 @@ Component sys_id is `e05d4ceedc658ecb722ce0ea3a591936`, so just add it to your A
 
 The component should be configured properly - your ServiceNow Experience app has to have a UX property with a name `xlabs-navigation` and JSON type value.
 
-In that JSON object you define a component configuraiton.
+In that JSON object you define a component configuration.
 
-The basic structure of the configuration file is simle:
+The basic structure of the configuration file is simple:
 
 ```json
 {
